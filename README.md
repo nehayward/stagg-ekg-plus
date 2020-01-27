@@ -1,14 +1,13 @@
-# SwitchBot
-[SwitchBot](https://www.switch-bot.com/) api for Node.js (unofficial)
+# Stagg EKG+
+[stagg-kettle](https://fellowproducts.com/collections/heat/products/stagg-ekg-plus api for Node.js (unofficial)
 
-# Usabe
+# Usage
 
-```
-const Switchbot = require('switchbot');
-const switchbot = Switchbot('bluetooth address');
-switchbot.turnOn();
-switchbot.turnOff();
-switchbot.press();
+```node
+const StaggKettle = require('stagg-ekg-plus');
+const stagg = StaggKettle('bluetooth address');
+stagg.turnOn();
+stagg.turnOff();
 ```
 
 # Depends
