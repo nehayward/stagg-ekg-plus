@@ -1,17 +1,25 @@
 {
-  "name": "stagg-ekg-plus",
+  "name": "@nehayward/stagg-ekg-plus",
   "version": "0.0.1",
   "description": "Stagg EKG+ Controller (unofficeal)\nrequires gatttool",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["stagg-ekg-plus", "fellow", "coffee", "kettle"],
+  "keywords": [
+    "stagg-ekg-plus",
+    "fellow",
+    "coffee",
+    "kettle"
+  ],
   "author": "nehayward",
   "license": "Apache-2.0",
   "homepage": "https://github.com/nehayward/stagg-ekg-plus",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nehayward/stagg-ekg-plus"
+    "url": "git+https://github.com/nehayward/stagg-ekg-plus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nehayward/stagg-ekg-plus/issues"
   }
 }
