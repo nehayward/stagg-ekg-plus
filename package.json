@@ -1,5 +1,5 @@
 {
-  "name": "@nehayward/stagg-ekg-plus",
+  "name": "stagg-ekg-plus",
   "version": "0.0.1",
   "description": "Stagg EKG+ Controller (unofficeal)\nrequires gatttool",
   "main": "index.js",

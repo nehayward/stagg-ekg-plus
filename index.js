@@ -12,7 +12,7 @@ const trigger = (triggerCommand, address) => {
       return;
     }
 
-    const gatttool = spawn("gatttool", ["-b", address, "-t", "random", "-I"]);
+    const gatttool = spawn("gatttool", ["-b", address, "-I"]);
     var connectSended = false;
 
     gatttool.stdout.on("data", data => {
@@ -30,7 +30,7 @@ const trigger = (triggerCommand, address) => {
         setTimeout(() => {
           gatttool.kill();
           resolve();
-        }, 1000);
+        }, 4000);
       } else if (data.indexOf("Error") >= 0) {
         gatttool.kill();
         reject();
