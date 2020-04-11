@@ -1,5 +1,5 @@
 # Stagg EKG+
-[stagg-kettle](https://fellowproducts.com/collections/heat/products/stagg-ekg-plus api for Node.js (unofficial))
+[stagg-kettle api for Node.js](https://fellowproducts.com/collections/heat/products/stagg-ekg-plus) (unofficial)
 
 # Usage
 
